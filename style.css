@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.container{ 
+    width: 1440px;
+    margin: 0 auto;
+}
+h1{
+    position: absolute;
+    margin-top: 40px;
+    font-size: 64px;
+    font-family: Manrope;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-right: 20px;
+    color: #434242;
+
+}
+.balloons {
+    width: 100px;
+    height: 40px;
+    background-color: #4BA9FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.balloons:hover{
+    background-color: chocolate;
+    color: white;
+}
+.buttons{
+    margin-top: 65px;
+    margin-left: 171px;
+}
+
+.kkk{
+    border: none;
+    background-color: white;
+    margin-left: 50px;
+    color: #434242;
+    font-family: Manrope;
+    border-radius: 6px;
+    
+}
+.kkk:hover{
+    background-color: chocolate;
+    border: none;
+    color: white;
+}
+
+/* карточки */
+
+
+
+.card{
+    width: 255px;
+    height: 400px;
+    font-family: manrope;
+    border: 1px solid purple;
+    border-radius: 10px;
+}
+
+.card h3{
+   margin-left: 30px;
+}
+
+.card p{
+    margin-left: 30px;
+}
+.fff{
+    color: white;
+    background-color: #4BA9FF;
+    border: none;
+    width: 60px;
+    height: 25px;
+}
+.fff:hover{
+    background-color: chocolate;
+}
+
+
+.imgg{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9px;
+}
+.imgg button {
+    border-radius: 10px;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
